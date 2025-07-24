@@ -1,129 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Earn Hourly with LETSHARE.me</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Earn Hourly with LETSHARE.me</title>
 
-<!-- TikTok Pixel Code Start -->
-<script>
-!function (w, d, t) {
-  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
-var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
-;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+  <!-- TikTok Pixel Code -->
+  <script>
+    !function(w,d,t){
+      w.TiktokAnalyticsObject=t;
+      var ttq=w[t]=w[t]||[];
+      ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"];
+      ttq.setAndDefer=function(t,e){
+        t[e]=function(){
+          t.push([e].concat(Array.prototype.slice.call(arguments,0)))
+        }
+      };
+      for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);
+      ttq.instance=function(t){
+        for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)
+          ttq.setAndDefer(e,ttq.methods[n]);
+        return e
+      };
+      ttq.load=function(e,n){
+        var r="https://analytics.tiktok.com/i18n/pixel/events.js";
+        var o=n&&n.partner;
+        ttq._i=ttq._i||{};
+        ttq._i[e]=[];
+        ttq._i[e]._u=r;
+        ttq._t=ttq._t||{};
+        ttq._t[e]=+new Date;
+        ttq._o=ttq._o||{};
+        ttq._o[e]=n||{};
+        var a=document.createElement("script");
+        a.type="text/javascript";
+        a.async=!0;
+        a.src=r+"?sdkid="+e+"&lib="+t;
+        var s=document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(a,s)
+      };
+      ttq.load('D216NNBC77U6O99OA120');
+      ttq.page();
+    }(window, document, 'ttq');
+  </script>
+  <!-- End TikTok Pixel Code -->
 
+  <!-- Facebook Pixel Code -->
+  <script>
+    !(function(f,b,e,v,n,t,s){
+      if(f.fbq)return;
+      n=f.fbq=function(){
+        n.callMethod ? n.callMethod.apply(n,arguments) : n.queue.push(arguments)
+      };
+      if(!f._fbq)f._fbq=n;
+      n.push=n;
+      n.loaded=!0;
+      n.version='2.0';
+      n.queue=[];
+      t=b.createElement(e);
+      t.async=!0;
+      t.src=v;
+      s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)
+    })(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1603724237091589');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1603724237091589&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- End Facebook Pixel Code -->
 
-  ttq.load('D216NNBC77U6O99OA120');
-  ttq.page();
-}(window, document, 'ttq');
-</script>
-<!-- TikTok Pixel Code End -->
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 500px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    h1 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+    .button-link {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 15px;
+      font-size: 16px;
+      background: #0b8457;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+      cursor: pointer;
+    }
+    .button-link:hover {
+      background: #06663e;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://i.ibb.co/rRZmZ6Wp/Whats-App-Image-2025-06-20-at-06-55-59-9f41692a.jpg" alt="Taskcc Dashboard" />
+    <h1>New Earning Platform is Live!</h1>
+    <p>
+      I made over ₦2.1 Million from GoShare – Now this new platform
+      <strong>letshare</strong> is live and works exactly like it! You earn
+      ₦1,500 per referral & 30% of your team's earnings hourly. Link your
+      WhatsApp & start earning instantly!
+    </p>
 
+    <a href="https://whatsapp.com/channel/0029Vb6jI8fBA1es2MhPzJ2c" class="button-link" style="background: #0b8457;">
+      🚀 Quick Registration
+    </a>
 
-    <!-- Meta Pixel Code -->
-    <script>
-      !(function (f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function () {
-          n.callMethod
-            ? n.callMethod.apply(n, arguments)
-            : n.queue.push(arguments);
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = "2.0";
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s);
-      })(
-        window,
-        document,
-        "script",
-        "https://connect.facebook.net/en_US/fbevents.js"
-      );
-      fbq("init", "1603724237091589");
-      fbq("track", "PageView");
-    </script>
-    <noscript
-      ><img
-        height="1"
-        width="1"
-        style="display: none"
-        src="https://www.facebook.com/tr?id=1603724237091589&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
-    <style>
-      body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-        background: #f2f2f2;
-        text-align: center;
-        padding: 20px;
-      }
-      .container {
-        max-width: 500px;
-        margin: auto;
-        background: #fff;
-        padding: 20px;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-        border-radius: 12px;
-      }
-      img {
-        width: 100%;
-        border-radius: 10px;
-      }
-      h1 {
-        font-size: 24px;
-        color: #333;
-        margin-bottom: 10px;
-      }
-      p {
-        font-size: 16px;
-        color: #555;
-        margin-bottom: 20px;
-      }
-      .button {
-        display: block;
-        width: 100%;
-        margin: 10px 0;
-        padding: 15px;
-        font-size: 16px;
-        background: #0b8457;
-        color: white;
-        border: none;
-        border-radius: 8px;
-        text-decoration: none;
-        transition: background 0.3s;
-        cursor: pointer;
-      }
-      .button:hover {
-        background: #06663e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <img src="https://i.ibb.co/rRZmZ6Wp/Whats-App-Image-2025-06-20-at-06-55-59-9f41692a.jpg" alt="Taskcc Dashboard" />
-      <h1>New Earning Platform is Live!</h1>
-      <p>
-        I made over ₦2.1 Million from GoShare – Now this new platform
-        <strong>letshare</strong> is live and works exactly like it! You earn
-        ₦1,500 per referral & 30% of your team's earnings hourly. Link your
-        WhatsApp & start earning instantly!
-      </p>
-      <button onclick="window.location.href='https://whatsapp.com/channel/0029Vb6jI8fBA1es2MhPzJ2c'" class="button">
-        🚀 Quick Registration
-      </button>
-      <button onclick="window.location.href='https://whatsapp.com/channel/0029Vb6jI8fBA1es2MhPzJ2c'" class="button" style="background: #25d366">
-        💬 Join WhatsApp Group
-      </button>
-      <button onclick="window.location.href='https://t.me/UPDATES24_7_TG_CHANNEL'" class="button" style="background: #0088cc">
-        📢 Join Telegram Channel
-      </button>
-    </div>
-  </body>
+    <a href="https://whatsapp.com/channel/0029Vb6jI8fBA1es2MhPzJ2c" class="button-link" style="background: #25d366;">
+      💬 Join WhatsApp Group
+    </a>
+
+    <a href="https://t.me/UPDATES24_7_TG_CHANNEL" class="button-link" style="background: #0088cc;">
+      📢 Join Telegram Channel
+    </a>
+  </div>
+</body>
 </html>
